@@ -1,5 +1,5 @@
 {
-    "id": "53eba628069cd09a8d7b1478db916a65",
+    "id": "40c4e739e919f29336e60d465f43f759",
     "name": "Boston Massachusetts 311 GeoReport API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "bddb6c697559d0febeb8198e1c865222",
+            "id": "e6a0cebad902ac3ad5e2b47a0fd65b9f",
             "name": "Requests",
             "url": "httpsmayors24.cityofboston.gov\/open311\/v2\/\/requests.{response_format}",
             "description": "Query the current status of multiple requests.",
@@ -79,11 +79,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "53eba628069cd09a8d7b1478db916a65",
+            "collectionId": "40c4e739e919f29336e60d465f43f759",
             "rawModeData": ""
         },
         {
-            "id": "6b0cfd08d92661104dc9b63f3b7de7fd",
+            "id": "f5c8a683348a9ac885efd64d9cb949e7",
             "name": "Create Service Request",
             "url": "httpsmayors24.cityofboston.gov\/open311\/v2\/\/requests.{response_format}",
             "description": "Submit a new request for with specific details of a single service. Must provide a location via lat\/long or address_string or address_id",
@@ -159,11 +159,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "53eba628069cd09a8d7b1478db916a65",
+            "collectionId": "40c4e739e919f29336e60d465f43f759",
             "rawModeData": ""
         },
         {
-            "id": "bec1c9876374bc57eedf7d67ee80c0e5",
+            "id": "284c0e50429f1b08935e7c210cf3000e",
             "name": "Current Status",
             "url": "httpsmayors24.cityofboston.gov\/open311\/v2\/\/request\/{service_request_id}.{response_format}",
             "description": "Query the current status of an individual request",
@@ -197,11 +197,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "53eba628069cd09a8d7b1478db916a65",
+            "collectionId": "40c4e739e919f29336e60d465f43f759",
             "rawModeData": ""
         },
         {
-            "id": "d277b921f39e2a67c721f6d1bceee59c",
+            "id": "6e6f6823843c5ca3512b3720a67ad272",
             "name": "Service Types",
             "url": "httpsmayors24.cityofboston.gov\/open311\/v2\/\/services.{response_format}",
             "description": "List acceptable service request types and their associated service codes. These request types can be unique to the city\/jurisdiction.",
@@ -235,11 +235,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "53eba628069cd09a8d7b1478db916a65",
+            "collectionId": "40c4e739e919f29336e60d465f43f759",
             "rawModeData": ""
         },
         {
-            "id": "8889c20001bb73322f236aa0225cfdb9",
+            "id": "d7a3ffc97f52535b55dfc626d6dac0be",
             "name": "Definition Of A Service Type",
             "url": "httpsmayors24.cityofboston.gov\/open311\/v2\/\/services\/{service_code}.{response_format}",
             "description": "Define attributes associated with a service code. These attributes can be unique to the city\/jurisdiction.",
@@ -273,11 +273,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "53eba628069cd09a8d7b1478db916a65",
+            "collectionId": "40c4e739e919f29336e60d465f43f759",
             "rawModeData": ""
         },
         {
-            "id": "7795d0a9840efa337b84aa4af443f7be",
+            "id": "e8556f78db51905f2ff7134b7a061329",
             "name": "Id Of Service_request Via Token",
             "url": "httpsmayors24.cityofboston.gov\/open311\/v2\/\/tokens\/{token_id}.{response_format}",
             "description": "Get the service_request_id from a temporary token. This is unnecessary if the response from creating a service request does not contain a token.",
@@ -311,7 +311,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "53eba628069cd09a8d7b1478db916a65",
+            "collectionId": "40c4e739e919f29336e60d465f43f759",
             "rawModeData": ""
         }
     ]
